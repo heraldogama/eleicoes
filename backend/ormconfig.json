@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "104.236.86.229",
+  "port": 54323,
+  "username": "suportware",
+  "password": "jv23hj18a18g21v",
+  "database": "elections",
+  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/entity/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
